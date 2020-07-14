@@ -1,0 +1,19 @@
+nav > ul > li {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 8em;
+
+    text-align: center;
+
+    border: solid red 1px;
+}
+nav > ul > li:first-child {
+    margin-left: 10em;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
