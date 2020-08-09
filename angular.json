@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "WebEdu"
+    }
+  },
+  "defaultProject": "WebEdu",
+  "cli": {
+    "analytics": "1cd26653-6675-4a5a-af7f-015c3f1bce80"
+  }
 }

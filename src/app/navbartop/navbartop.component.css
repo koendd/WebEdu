@@ -1,4 +1,4 @@
-nav > ul > li {
+/* nav > ul > li {
     list-style-type: none;
 
     margin: 0;
@@ -16,4 +16,35 @@ nav > ul > li:first-child {
 
 nav > ul > li > a {
     text-decoration: none;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 1em;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-bottom: 0px;
+  border-left: 1px solid #bbb;
+}
+.active {
+  background-color: black;
+}
+li:last-child {
+  border-right: 1px solid #bbb;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }

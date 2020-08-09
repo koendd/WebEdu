@@ -1,10 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
-
 * {
     margin: 0;
     padding: 0;
 }
 
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.toolbar {
+  height: 57px;
+  width: 100.5%;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(224, 0, 73);
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  height: 57px;
+  width: 135px;
+  padding: 0 10px 0 10px;
+}
+
 main {
-    margin-left: 10em;
+	display: flex;
+	margin: 32px 18.5em auto;
+	flex-direction: column;
+	align-items: left;
 }
