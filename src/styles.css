@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :host {
@@ -29,10 +29,23 @@
   width: 135px;
   padding: 0 10px 0 10px;
 }
+.indentedTable {
+  margin-left: 2em;
+}
 
+.spacer {
+  margin-top: 1.5em;
+}
+
+.smallSpacer {
+  margin-top: 0.5em;
+}
+table {
+  border: 1px solid black;
+}
 main {
-	display: flex;
-	margin: 32px 18.5em auto;
-	flex-direction: column;
-	align-items: left;
+  display: flex;
+  margin: 32px 18.5em auto;
+  flex-direction: column;
+  align-items: left;
 }
