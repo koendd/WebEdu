@@ -29,7 +29,7 @@
   width: 135px;
   padding: 0 10px 0 10px;
 }
-.indentedTable {
+.indentedList {
   margin-left: 2em;
 }
 
@@ -40,9 +40,26 @@
 main img {
   margin-top: 0.5em;
 }
+
 table {
   margin-top: 0.5em;
-  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5em;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: rgb(224, 0, 73);
+  color: white;
 }
 main {
   display: flex;
