@@ -37,10 +37,11 @@
   margin-top: 1.5em;
 }
 
-.smallSpacer {
+img {
   margin-top: 0.5em;
 }
 table {
+  margin-top: 0.5em;
   border: 1px solid black;
 }
 main {
